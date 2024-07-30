@@ -1,22 +1,108 @@
-.heading1{
-           padding-left: 40px;
-}
-.heading2{
-           padding-left: 40px; 
-           color: tomato;
-}
-#about{
-       padding: 40px; 
-       padding-top: 20px; 
-             
-}
 body{
-       display: flex;
+    margin: 0px;
+    padding: 0px;
 }
-.flexible-container{
-       display: flex;
-       margin-bottom: 100px;
+.main-section{
+    margin: 0px;
+    padding: 100px;
+    
 }
+.container-one{
+        display: flex;
+    }
 .half-width{
-       padding-left: 40px;
+    width:50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+}
+#title{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    border-left: 5px solid;
+    border-color: rgb(255, 0, 149); 
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#title span{
+   color: tomato;
+}
+#Introduction{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800px;
+}
+#mission-2022{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(1, 0, 66);
+    font-family: 'DM Serif Display', serif;
+}
+#mission-2022 span{
+    color:tomato;
+}
+.container-two{
+    display: flex;
+    padding-left: 20px;
+}
+.content{
+    width: 33.33%;
+    padding:0px 20px;
+}
+.content img{
+    width: 200px;
+}
+.mission{
+    background-color:lightgoldenrodyellow;
+    border: 10px white solid;
+    border-radius: 20px;
+}
+.vission{
+    background-color: lightcyan;
+    border: 10px white solid;
+    border-radius: 20px;
+}
+.goal{
+    background-color: linen;
+    border: 10px white solid;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+.container-three img{
+    width: 400px;
+}
+.article-one{
+display: flex;
+padding: 50px 50px;
+}
+.article-two{
+    display: flex;
+    padding: 50px 50px;
+}
+.article{
+    padding-left: 20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(0, 96, 29);
+    padding-top: 20px;
 }
