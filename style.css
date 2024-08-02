@@ -38,7 +38,7 @@ body{
 }
 a{
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg,green, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
